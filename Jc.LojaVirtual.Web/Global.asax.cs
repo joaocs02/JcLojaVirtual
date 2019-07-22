@@ -7,7 +7,6 @@ using System.Web.Routing;
 
 namespace Jc.LojaVirtual.Web
 {
-
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
