@@ -9,14 +9,27 @@ namespace Jc.LojaVirtual.Dominio.Entidades
 
     public class Produto
     {
-        public int ProdutoID { get; set; }
-        public string nome { get; set; }
+        public int ProdutoId { get; set; }
+        public int ProdutoCodigo { get; set; }
+        public string ProdutoDescricao { get; set; }
 
-        public string descricap { get; set; }
+        public string ProdutoDescricaoResumida { get; set; }
 
-        public decimal preco { get; set; }
+        public string MarcaDescricao { get; set; }
 
-        public string categoria { get; set; }
+        public string ModeloDescricao { get; set; }
+
+
+        public string ProdutoModeloCodigo { get; set; }
+
+        public string CorCodigo { get; set; }
+
+        public string TamanhoCodigo { get; set; }
+
+        public string UnidadeVenda { get; set; }
+
+        public decimal Preco { get; set; }
+
 
     }
     
